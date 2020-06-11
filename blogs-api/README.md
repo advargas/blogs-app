@@ -1,8 +1,8 @@
-##Secured REST API
+## Secured REST API
 
 The secured REST API is an oauth2-resource-server and publishes the endpoints to be consumed.
 
-###Run the Spring App
+### Run the Spring App
 
 ```
 cd blogs-api
@@ -32,7 +32,7 @@ The implementation follows an Hexagonal architecture where the domain classes ar
 2. **domain**: Core classes including model and business logic.
 3. **infrastructure**: It includes configuration classes and all artifacts the application needs to work.
 
-###Important Links:
+### Important Links:
 
 * API Health: [http://localhost:8082/actuator/health](http://localhost:8082/actuator/health)
 * Swagger Info: [http://localhost:8081/blogs/swagger-ui.html](http://localhost:8081/blogs/swagger-ui.html)

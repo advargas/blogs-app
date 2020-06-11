@@ -1,4 +1,4 @@
-##Embedded Keycloak auth server
+## Embedded Keycloak auth server
 
 Keycloak maintains users, roles, clients and performs JWT tokens verification using OpenID Connect (OIDC), an authentication layer on top of OAuth 2.0, acting as an authorization framework.
 
@@ -10,7 +10,7 @@ The implementation is based on the article:
 
 [Keycloak Embedded in a Spring Boot Application](https://www.baeldung.com/keycloak-embedded-in-spring-boot-app)
 
-###Run the authorization server
+### Run the authorization server
 
 Start the embedded Keycloak authorization server:
 

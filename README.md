@@ -2,14 +2,14 @@
 
 REST API with JWT authentication using an embedded Keycloak authorization server.
 
-##Embedded Keycloak auth server
+## Embedded Keycloak auth server
 
 Keycloak maintains users, roles, clients and performs JWT tokens verification using OpenID Connect (OIDC), an authentication layer on top of OAuth 2.0, acting as an authorization framework.
 
 For more details, please go to:
 [blogs-auth-server](blogs-auth-server)
 
-##Secured REST API
+## Secured REST API
 
 The secured REST API is an oauth2-resource-server and publishes the endpoints to be consumed.
 
