@@ -7,7 +7,7 @@ The secured REST API is an oauth2-resource-server and publishes the endpoints to
 ```
 cd blogs-api
 gradle build
-gradle rootRun
+gradle bootRun
 
 ```
 
@@ -22,7 +22,11 @@ The user accounts are maintained in Keycloak, the Posts are stored by the applic
 
 For authenticated endpoints, please make sure you update the Authorization header with the access token returned in the login endpoint response.
 
-All validations are performed with Java Bean Validation.
+All validations are performed with Java Bean Validation. 
+
+Invocations with validation errors will respond with HTTP Status code 400, Bad Request.
+
+Invocations with authentication errors due to expired or invalid JWT tokens in the Authorization Header, will respond with HTTP Status code 401, Unauthorized.
 
 The Keycloak repository class uses a Keycloak client to perform the administration operations over user accounts, stablishing a connection with the server with the **rest-admin** user.
 

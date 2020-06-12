@@ -17,7 +17,7 @@ Start the embedded Keycloak authorization server:
 ```
 cd blogs-auth-server
 gradle build
-gradle rootRun
+gradle bootRun
 
 ```
 

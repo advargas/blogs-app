@@ -25,7 +25,7 @@ Start the embedded Keycloak authorization server:
 ```
 cd blogs-auth-server
 gradle build
-gradle rootRun
+gradle bootRun
 
 ```
 
@@ -52,7 +52,7 @@ There is a pre-created user with username **rest-admin** to create, update and v
 ```
 cd blogs-api
 gradle build
-gradle rootRun
+gradle bootRun
 
 ```
 
